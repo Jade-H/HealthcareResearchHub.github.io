@@ -1,11 +1,12 @@
-# Healthcare Research Hub
-**Transforming the way we think about health**
+title: "Healthcare Research Hub"
+description: "Transforming the way we think about health"
+
+
+## What is Healthcare Research Hub
 
 Healthcare Research Hub is an open-source project that provides end-to-end solutions
 such as SDK, platform and portal for various use cases
 from medical research studies to clinician services using wearable devices.
-
-## Overview
 
 ![Usecase overview diagram](images/overview.png)
 
