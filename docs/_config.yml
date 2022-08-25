@@ -1,4 +1,6 @@
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
 - jekyll-remote-theme
+title: "Healthcare Research Hub"
+description: "Transforming the way we think about Health"
 show_downloads: false
