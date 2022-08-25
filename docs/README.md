@@ -1,5 +1,4 @@
 ---
-layout: home
 title: "Healthcare Research Hub"
 description: "Transforming the way we think about health"
 permalink: /
