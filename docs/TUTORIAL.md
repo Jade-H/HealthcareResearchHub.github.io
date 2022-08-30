@@ -1,3 +1,9 @@
+---
+title: "YYY"
+description: "ZZZ"
+layout: default
+---
+
 # Tutorials of Healthcare Research Hub
 
 These tutorials will help you get familiar with the Research Hub.

@@ -20,8 +20,8 @@
             <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
           {% endif %}
 
-          <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+          <h1 id="project_title">{{ page.title | default: site.title }}</h1>
+          <h2 id="project_tagline">{{ page.description | default: site.description }}</h2>
 
           {% if site.show_downloads %}
             <section id="downloads">
@@ -34,23 +34,9 @@
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-      <div style="with:300px;float:left">
-        <ul>
-        {% assign steps = site.pages | where_exp: "item", "item.path contains 'codelab/'" | sort: "order"  %}
-        {% for step in steps %}
-          {% if step.order == page.order %}
-            <li>{{step.order}}. {{step.title}}</li>
-          {% else %}
-            <li><a href="{{step.url}}">{{step.order}}. {{step.title}}</a></li>
-          {% endif %}
-        {% endfor %}
-        </ul>
-      </div>
-      <div>
-        <section id="main_content" class="inner">
-          {{ content }}
-        </section>
-      </div>
+      <section id="main_content" class="inner">
+        {{ content }}
+      </section>
     </div>
 
     <!-- FOOTER  -->

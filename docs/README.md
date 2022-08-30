@@ -1,6 +1,7 @@
 ---
 title: "Healthcare Research Hub"
 description: "Transforming the way we think about health"
+layout: default
 permalink: /
 ---
 
@@ -20,7 +21,7 @@ from medical research studies to clinician services using wearable devices.
 
 *Here comes very quick introductory instructions to get a glimpse of the project*
 
-For more information, please refer to [tutorials](TUTORIAL.md).
+For more information, please refer to [tutorials](TUTORIAL).
 
 ## Links
 
